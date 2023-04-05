@@ -1,7 +1,7 @@
 ﻿using Scrawny.Spider.Domain.Catalog;
 using Microsoft.EntityFrameworkCore;
 
-namespace Scrawny_Spiders.Data {
+namespace Scrawny.Spider.Data {
     public class StoreContext : DbContext
     {
         public StoreContext(DbContextOptions<StoreContext> options)
