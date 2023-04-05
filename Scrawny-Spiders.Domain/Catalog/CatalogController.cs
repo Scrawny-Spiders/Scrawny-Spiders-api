@@ -1,4 +1,4 @@
-using Microsoft.AspNetcore..Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Scrawny.Spider.Domain.Catalog;
 
 
