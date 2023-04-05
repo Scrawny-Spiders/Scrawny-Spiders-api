@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrawny-Spiders.Api", "Scra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrawny-Spiders.Domain", "Scrawny-Spiders.Domain\Scrawny-Spiders.Domain.csproj", "{512BE1CA-80D4-4712-9605-4E9A22076C47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrawny-Spiders.Data", "Scrawny-Spiders.Data\Scrawny-Spiders.Data.csproj", "{0B92FDD3-D364-4A2E-9D46-0E1A79E90A1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{512BE1CA-80D4-4712-9605-4E9A22076C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{512BE1CA-80D4-4712-9605-4E9A22076C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{512BE1CA-80D4-4712-9605-4E9A22076C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B92FDD3-D364-4A2E-9D46-0E1A79E90A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B92FDD3-D364-4A2E-9D46-0E1A79E90A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B92FDD3-D364-4A2E-9D46-0E1A79E90A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B92FDD3-D364-4A2E-9D46-0E1A79E90A1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
