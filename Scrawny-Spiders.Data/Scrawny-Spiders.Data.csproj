@@ -1,11 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\Scrawny-Spiders.Domain\Scrawny-Spiders.Domain.csproj" />
-  </ItemGroup>
+  
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.4" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Scrawny-Spiders.Domain\Scrawny-Spiders.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
