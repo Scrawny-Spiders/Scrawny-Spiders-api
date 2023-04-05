@@ -4,6 +4,10 @@
     <ProjectReference Include="..\Scrawny-Spiders.Domain\Scrawny-Spiders.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.4" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <RootNamespace>Scrawny_Spiders.Data</RootNamespace>
