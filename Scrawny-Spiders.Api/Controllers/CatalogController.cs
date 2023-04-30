@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Scrawny.Spider.Domain.Catalog;
 using Scrawny.Spider.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Scrawny.Spider.Api.Controllers
 {
@@ -67,6 +68,7 @@ namespace Scrawny.Spider.Api.Controllers
             return NoContent();
         }
         [HttpDelete("{id:int}")]
+        [Authorize("delete:catalog")]
         public IActionResult DeleteItem(int id)
         {
             var item = _db.Items.Find(id);
